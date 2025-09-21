@@ -20,7 +20,7 @@ export function ModelComponent({conf}) {
     },[model])   
 
     function setTransform() {
-        model.scene.position.y = 1;
+        model.scene.position.y = -50;
     }
 
     return (

@@ -80,7 +80,7 @@ const CanvasComponent = (props) => {                                  //props {r
                 <Sky distance={45000} sunPosition={[1000, 1000, 0]} inclination={10} azimuth={5}
                     mieCoefficient={0.05} mieDirectionalG={10} rayleigh={0.7} turbidity={1} /> : <></>}
 
-                    <Ocean position={[0, 0, 0]} speed={props.settings["Water Speed"]} show={props.rootPoints[4].showModel}/>
+                    <Ocean position={[0, -10, 0]} speed={props.settings["Water Speed"]} show={props.rootPoints[4].showModel}/>
                     <Ground show={props.rootPoints[4].showModel} />
             </Suspense>
             <ambientLight intensity={(props.settings["Light Intensity"] / 2 )} />

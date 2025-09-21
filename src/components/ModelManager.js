@@ -14,9 +14,8 @@ export function ModelManager(props) {
 
     function getModels() {
         let a = [];
-        a.push({ name: props.rootPoints[2].name, model: "/generic_tp.glb", id: props.rootPoints[2].id, show: props.rootPoints[2].showModel, highlight: (props.modelToHighlight === 2) })
-        a.push({ name: props.rootPoints[3].name, model: "/generic_jacket.glb", id: props.rootPoints[3].id, show: props.rootPoints[3].showModel, highlight: (props.modelToHighlight === 3) })
-        a.push({ name: props.rootPoints[1].name, model: "/generic_wtg.glb", id: props.rootPoints[1].id, show: props.rootPoints[1].showModel, highlight: (props.modelToHighlight === 1) })
+        a.push({ name: props.rootPoints[2].name, model: "/generic_fou.glb", id: props.rootPoints[2].id, show: props.rootPoints[2].showModel, highlight: (props.modelToHighlight === 2) })
+        a.push({ name: props.rootPoints[3].name, model: "/generic_pin_piles.glb", id: props.rootPoints[3].id, show: props.rootPoints[3].showModel, highlight: (props.modelToHighlight === 3) })
         return a;
     }
 
