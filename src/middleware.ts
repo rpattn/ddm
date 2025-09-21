@@ -41,7 +41,7 @@ export default auth((req: AuthenticatedNextRequest) => {
         //console.log("Found: ", req.auth?.user)
       }
     } else {
-      userPath = "/demo"
+      userPath = "demo"
     }
 
     // if we have a signed in user than has no path found, redirect them
