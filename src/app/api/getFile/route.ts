@@ -24,6 +24,7 @@ export async function GET(request: NextRequest) {
             //console.log(buffer.toString())
             return new Response(buffer.toString());
         }
+        console.log(filePath)
         console.log("requested non-existant file path")
 
     }
