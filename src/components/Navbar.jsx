@@ -6,7 +6,7 @@ const Navbar = ({appVersion, userName}) => {
         <nav className='navbar'>
             <ul className='w-full max-w-screen-2xl mx-auto'>
                 <li><p></p></li>
-                <li>Digital O&M Manual: Demo <span style={{fontSize: "small", color: "gray"}}>(V{appVersion})</span></li>
+                <li>Digital Design Manager: Demo <span style={{fontSize: "small", color: "gray"}}>(V{appVersion})</span></li>
                 <div className='right top-0 right-0 relative m-auto mr-0'>
                     <SignOutForm />
                 </div>
