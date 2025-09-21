@@ -7,7 +7,7 @@
 .yarn/install-state.gz
 
 # misc
-/data
+/data/62e*
 
 # testing
 /coverage
@@ -23,7 +23,6 @@
 .DS_Store
 *.pem
 
-/data/demo
 *.key
 
 # debug
