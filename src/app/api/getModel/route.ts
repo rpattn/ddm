@@ -14,7 +14,7 @@ export async function GET(request: NextRequest) {
     }
 
     if(resourcePath) {
-        const filePath = path.join(__dirname, '../../../../../.next/server/data', resourcePath)
+        const filePath = path.join('/data', resourcePath)
         //console.log("Current dir: ", __dirname)
         if (fs.existsSync(filePath)) {
         
